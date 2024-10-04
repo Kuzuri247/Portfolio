@@ -1,6 +1,6 @@
 # Welcome 
 
-This is my first portfolio website I am learning web dev along with DSA since June well sometimes I was on vacation and few times I got sick but then also I kept myself together and kept working slowly.
+This is my first portfolio website I am learning web dev along with DSA since June 2024 well sometimes I was on vacation and few times I got sick but then also I kept myself together and kept working slowly.
 
 I am new to open source as you can see from the profile I am also aiming for GSOC 2025.
 
