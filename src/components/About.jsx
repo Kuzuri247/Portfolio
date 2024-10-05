@@ -5,6 +5,7 @@ import { services } from '../constants'
 import { textVariant } from '../utils/motion'
 import { fadeIn } from '../utils/motion'
 import { motion } from 'framer-motion'
+import SectionWrapper from '../hoc/SectionWrapper'
 
 const ServiceCard=({index ,title,icon})=>{
   return (
@@ -45,10 +46,10 @@ const About = () => {
         <h2 className={styles.sectionHeadText}
         >Overview.</h2>
 
-      </motion.div>
-      <motion.p
+      </motion.div >
+      <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] flex justify-center '
       >As a newcomer to web development, I have built a solid foundation in key technologies, particularly the MERN stack, which includes MongoDB, Express.js, React, and Node.js. I am familiar with Object-Relational Mappers like Sequelize and Mongoose for database interactions. Additionally, I have begun exploring Next.js for server-side rendering and static site generation, as well as Docker for automating application deployment through containerization. With this diverse skill set, I am well-equipped to tackle various projects and am eager to deepen my expertise through hands-on practice.
       </motion.p>
 
@@ -63,4 +64,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About,"about");
