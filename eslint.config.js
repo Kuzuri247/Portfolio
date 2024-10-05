@@ -22,9 +22,11 @@ export default [
       react,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      
     },
     rules: {
-      'react/no-unknown-property': ['error', { ignore: ['intensity', 'position', 'rotation', 'geometry', 'material'] }]
+      "prettier/prettier": ["error"],
+      'react/no-unknown-property': ['error', { ignore: ['intensity', 'position', 'rotation', 'geometry', 'material'] }],
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
@@ -32,6 +34,7 @@ export default [
       'react/jsx-no-target-blank': 'off',
       'react-refresh/only-export-components': [
         'warn',
+        
         { allowConstantExport: true },
       ],
     },

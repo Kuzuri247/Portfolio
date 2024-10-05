@@ -1,5 +1,14 @@
-import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Works, Tech,  } from './components'; // Fixed import path
+import { BrowserRouter } from 'react-router-dom';
+import {
+  About,
+  Contact,
+  Experience,
+  Feedbacks,
+  Hero,
+  Navbar,
+  Works,
+  Tech,
+} from './components'; // Fixed import path
 
 const App = () => {
   return (
@@ -10,16 +19,16 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience /> 
+        <Experience />
         <Works />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          <Tech/>
+          <Tech />
         </div>
       </div>
     </BrowserRouter>
   );
 };
 
-export default App; 
+export default App;
