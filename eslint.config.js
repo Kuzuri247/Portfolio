@@ -24,6 +24,7 @@ export default [
       'react-refresh': reactRefresh,
     },
     rules: {
+      'react/no-unknown-property': ['error', { ignore: ['intensity', 'position', 'rotation', 'geometry', 'material'] }]
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
