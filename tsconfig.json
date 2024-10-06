@@ -3,7 +3,8 @@
     "allowJs": true,
     "checkJs": true,
     "jsx": "react-jsx", // or "react" depending on your React version
-    "strict": true // You can enable strict mode later
+    "strict": true,
+    "noImplicitAny": true // You can enable strict mode later
   },
   "include": ["src/**/*"] // Adjust according to your source folder structure
 }
