@@ -116,55 +116,48 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
+    title: 'Started Web Dev',
+    company_name: 'Through various resources',
     icon: starbucks,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'June 2024',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'I embarked on my web development journey in June 2024, diving into the fundamentals and exploring various technologies.',
+      ' I began learning about data structures and algorithms alongside my web development studies.'
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
+    title: 'Currently learning ',
+    company_name: 'Want to learn how production code is written',
     icon: tesla,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'July 2024',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'In July 2024, I deepened my knowledge by learning about React and databases.',
+      'I explored other technologies such as Node.js, Express.js, and MongoDB.',
+      'I actively participated in coding challenges and worked on projects to enhance my skills.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
+    title: 'Learning Full stack Development',
+    company_name: 'Will achieve this in the future ',
     icon: shopify,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'August 2024',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'In August 2024, I delved deeper into the world of full stack development, learning about data structures and algorithms.',
+      'Combining this understanding of data structures and algorithms with my web development skills has enhanced my ability to build more efficient and scalable applications.'
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
+    title: 'Looking for an internship',
+    company_name: 'This is my first(deployed) webiste',
     icon: meta,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'October 2024',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'In October 2024, I successfully built and deployed my first website with the help of YouTube tutorials.',
+      'Once deployed, I shared the live link with friends and family, showcasing my progress in web development. This experience not only boosted my confidence but also reinforced my understanding of web technologies.'
     ],
   },
 ];
@@ -198,7 +191,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Yet to add',
     description:
       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
     tags: [
@@ -219,7 +212,7 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Job IT',
+    name: 'Yet to add',
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
@@ -240,7 +233,7 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Yet to add',
     description:
       'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
     tags: [

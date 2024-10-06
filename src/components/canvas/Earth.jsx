@@ -58,7 +58,7 @@ const EarthCanvas = () => {
   return (
     <Canvas
       shadows
-      frameloop='demand'
+      frameloop='always'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
       camera={{
@@ -76,7 +76,7 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-         <ambientLight intensity={1} /> {/* Soft ambient light */}
+         <ambientLight intensity={1.5} /> {/* Soft ambient light */}
         <directionalLight 
           position={[5, 5, 5]} 
           intensity={1} 
