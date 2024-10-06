@@ -7,6 +7,10 @@ import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { EarthCanvas } from './canvas';
 
+// template_1pq2nzi
+// service_gaoneug
+// 0ZUTDnVdIZbNNoGQ-
+
 const Contact = () => {
   const formRef = useRef();
 
@@ -17,18 +21,46 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false)
+
   const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
 
   }
 
   const handleSubmit = (e) => {
-
+    e.preventDefault();
+    setLoading(true);
+    emailjs.send('service_gaoneug', 'template_1pq2nzi',
+      {
+        from_name: form.name,
+        to_name: 'Rahul',
+        from_email: form.email,
+        to_email: 'mindsetmatters47@gmail.com',
+        message: form.message,
+      },
+      '0ZUTDnVdIZbNNoGQ-'
+    )
+    .then(() => {
+      setLoading(false);
+      alert('Message sent successfully!');
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      });
+    },(error) => {
+      setLoading(false);
+      console.log(error);
+      alert('Something went wrong!');
+    });
   }
+
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse  flex gap-10 overflow-hidden'>
       <motion.div
-        variants={slideIn('right', "tween", 0.2, 1)}
+        variants={slideIn('left', "tween", 0.2, 1)}
         className='flex-[1] bg-black-100 p-8 rounded-2xl  justify-center'
       >
         <p className={styles.sectionSubText}>Get in Touch</p>
@@ -46,7 +78,7 @@ const Contact = () => {
             <input
               type="text"
               name='name'
-              value={form.message}
+              value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 
@@ -91,14 +123,15 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-      
-      <motion.div>
 
-        
+      <motion.div
+        variants={slideIn('right', "tween", 0.2, 1)}
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+      >
+        <EarthCanvas />
       </motion.div>
     </div>
   )
-
 }
 
 
