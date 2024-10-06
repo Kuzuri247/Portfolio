@@ -8,6 +8,7 @@ import {
   Navbar,
   Works,
   Tech,
+  StarsCanvas,
 } from './components'; // Fixed import path
 
 const App = () => {
@@ -20,11 +21,12 @@ const App = () => {
         </div>
         <About />
         <Experience />
+        <Tech />
         <Works />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          <Tech />
+         <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>

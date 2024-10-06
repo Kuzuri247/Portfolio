@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser'
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import { EarthCanvas } from './canvas';
 
 const Contact = () => {
   const formRef = useRef();
@@ -89,7 +90,11 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+      </motion.div>
+      
+      <motion.div>
 
+        
       </motion.div>
     </div>
   )
