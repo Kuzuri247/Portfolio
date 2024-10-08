@@ -48,7 +48,13 @@ const About = () => {
         className="mt-4 text-secondary text-center text-[17px] w-full leading-[30px]  "
       >
         As a newcomer to web development, I have built a solid foundation in key
-        technologiects and am eager to deepen my
+        technologies, particularly the MERN stack, which includes MongoDB,
+        Express.js, React, and Node.js. I am familiar with Object-Relational
+        Mappers like Sequelize and Mongoose for database interactions.
+        Additionally, I have begun exploring Next.js for server-side rendering
+        and static site generation, as well as Docker for automating application
+        deployment through containerization. With this diverse skill set, I am
+        well-equipped to tackle various projects and am eager to deepen my
         expertise through hands-on practice.
       </motion.p>
 
